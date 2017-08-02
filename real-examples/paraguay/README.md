@@ -6,3 +6,12 @@ The [National Directorate of Public Procurement of The Republic of Paraguay (DNC
 The fetch script collects a list of available contracting identifiers, and then fetches the **record packages** for these. 
 
 The current script does not make use of authentication, so is rate limited to 4 calls per second. 
+
+```
+virtualenv venv/
+pip install -r requirements.txt
+
+sudo apt-get install python-dev
+sudo apt-get install libffi-dev
+sudo apt-get install libssl-dev
+```
